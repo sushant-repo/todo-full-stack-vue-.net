@@ -7,6 +7,9 @@ import * as directives from "vuetify/directives";
 import "vuetify/styles";
 
 export default createVuetify({
+  //   theme: {
+  //     defaultTheme: "dark",
+  //   },
   icons: {
     defaultSet: "fa",
     aliases,
