@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@date-io/dayjs": "^3.0.0",
     "axios": "^1.6.8",
     "dayjs": "^1.11.10",
     "sass": "^1.74.1",

@@ -1,8 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Inbox from "@/views/Inbox.vue";
-
-const routes = [{ path: "/", component: Inbox }];
+const routes = [
+  { path: "/", component: () => import("@/views/Inbox.vue") },
+  {
+    path: "/settings/color",
+    component: () => import("@/views/ColorPalettesBuilder.vue"),
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
